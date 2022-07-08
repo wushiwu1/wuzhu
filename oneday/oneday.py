@@ -7,11 +7,11 @@ while age > 0:
         print("请往小了猜")
         age = int(input("请猜猜我的年龄："))
         continue
-    if age < 71:
+    elif age < 71:
         print("请往大了猜")
         age = int(input("请猜猜我的年龄："))
         continue
-    if age == 71:
+    else:
         print("猜对了！")
         break
 
